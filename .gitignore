@@ -1,0 +1,49 @@
+# Local agent/editor state
+.agents/
+.codex/
+.vscode/
+.pycache_check/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.pem
+*.key
+
+# Keil build products and personal UI/debug sessions
+MDK-ARM/STM32F767-balance-car/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.map
+*.lnp
+*.lst
+*.dep
+*.bak
+*.Bak
+*.uvguix.*
+*.uvoptx
+*.build_log.htm
+build.log
+
+# Unused CMSIS distribution examples, manuals and prebuilt DSP libraries
+Drivers/CMSIS/DSP/Examples/
+Drivers/CMSIS/docs/
+Drivers/CMSIS/Lib/
+
+# Unrelated reports, temporary outputs and historical workstation patches
+outputs/
+report_assets/
+report_assets_v2/
+tmp/
+overwrite_arduino_rr.ps1
+patch_arduino_rr.ps1
+tools/*
+!tools/render_balance_car_schematic.py
+!tools/check_repository.py
+
+# OS files
+Thumbs.db
+.DS_Store
